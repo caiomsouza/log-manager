@@ -9,10 +9,30 @@ sudo su - postgres
 vi /Library/PostgresPlus/<version>SS/data/postgresql.conf
   
 ```  
+
+```
+
+sudo cp data/postgresql.conf /Users/caiomsouza/git/github.com/log-manager/
+sudo cp /Users/caiomsouza/git/github.com/log-manager/postgresql.conf /Library/PostgreSQL/9.3/data/
+
+```
   
   
 modify it and save it.  
 
+Stop PostgreSQL 9.3 on Mac OS X
+```
+sudo su - postgres
+/Library/PostgreSQL/9.3/bin/pg_ctl stop -D /Library/PostgreSQL/9.3/data
+
+```
+
+Start PostgreSQL 9.3 on Mac OS X
+```
+sudo su - postgres
+/Library/PostgreSQL/9.3/bin/pg_ctl start -D /Library/PostgreSQL/9.3/data
+
+```
 
 
 http://justatheory.com/computers/databases/postgresql/enable-csvlogging.html
