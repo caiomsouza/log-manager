@@ -34,6 +34,21 @@ sudo su - postgres
 
 ```
 
+Output:
+
+```
+
+Caios-MacBook-Pro:~ postgres$ /Library/PostgreSQL/9.3/bin/pg_ctl stop -D /Library/PostgreSQL/9.3/data 
+waiting for server to shut down.... done
+server stopped
+Caios-MacBook-Pro:~ postgres$ /Library/PostgreSQL/9.3/bin/pg_ctl start -D /Library/PostgreSQL/9.3/data 
+server starting
+Caios-MacBook-Pro:~ postgres$ 2015-07-14 11:23:23 EDT LOG:  redirecting log output to logging collector process
+2015-07-14 11:23:23 EDT HINT:  Future log output will appear in directory "pg_log".
+
+
+```
+
 
 http://justatheory.com/computers/databases/postgresql/enable-csvlogging.html
 http://www.postgresql.org/docs/9.1/static/runtime-config-logging.html
