@@ -1,0 +1,4 @@
+2015-07-14 11:23:23.290 EDT,,,8313,,55a5296b.2079,1,,2015-07-14 11:23:23 EDT,,0,LOG,00000,"ending log output to stderr",,"Future log output will go to log destination ""csvlog"".",,,,,,,""
+2015-07-14 11:23:23.338 EDT,,,8315,,55a5296b.207b,1,,2015-07-14 11:23:23 EDT,,0,LOG,00000,"database system was shut down at 2015-07-14 11:23:15 EDT",,,,,,,,,""
+2015-07-14 11:23:23.340 EDT,,,8313,,55a5296b.2079,2,,2015-07-14 11:23:23 EDT,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,""
+2015-07-14 11:23:23.340 EDT,,,8319,,55a5296b.207f,1,,2015-07-14 11:23:23 EDT,,0,LOG,00000,"autovacuum launcher started",,,,,,,,,""
