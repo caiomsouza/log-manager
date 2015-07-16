@@ -45,9 +45,9 @@ aws s3 sync . s3://teste-s3-aws-cli/twitter-users
 ```
 
 #Links:
-http://aws.amazon.com/cli/
-http://docs.aws.amazon.com/cli/latest/reference/s3/cp.html
-http://docs.aws.amazon.com/cli/latest/reference/s3/sync.html
-http://docs.aws.amazon.com/cli/latest/userguide/using-s3-commands.html
-https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html
+http://aws.amazon.com/cli/<BR>
+http://docs.aws.amazon.com/cli/latest/reference/s3/cp.html<BR>
+http://docs.aws.amazon.com/cli/latest/reference/s3/sync.html<BR>
+http://docs.aws.amazon.com/cli/latest/userguide/using-s3-commands.html<BR>
+https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html<BR>
 
