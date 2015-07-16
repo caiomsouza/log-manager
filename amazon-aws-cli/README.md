@@ -36,6 +36,9 @@ aws s3 cp /Users/caiomsouza/Desktop/lib s3://teste-s3-aws-cli --recursive
 aws s3 ls s3://your_bucket
 aws s3 ls s3://teste-s3-aws-cli
 
+# List files inside a folder in a S3 bucket
+aws s3 ls s3://teste-s3-aws-cli/twitter-users/
+
 
 # Sync all files from your current folder
 aws s3 sync
