@@ -1,3 +1,4 @@
+# Autor: Caio Moreno @caiomsouza
 #Amazon AWS Cli (Command Line Interface)
 
 ```
@@ -125,3 +126,7 @@ https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html<BR>
 http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html<BR>
 http://docs.aws.amazon.com/cli/latest/userguide/controlling-output.html<BR>
 http://docs.aws.amazon.com/cli/latest/reference/configure/index.html<BR>
+http://docs.aws.amazon.com/AmazonS3/latest/dev/walkthrough1.html<BR>
+http://mikeferrier.com/2011/10/27/granting-access-to-a-single-s3-bucket-using-amazon-iam/<BR>
+https://centroy.com/blog/allow-user-access-single-s3-bucket<BR>
+

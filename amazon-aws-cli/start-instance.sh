@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Author: Caio Moreno (@caiomsouza)
 # Start Instance 
 
 instance_id="i-e232ae03"
