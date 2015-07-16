@@ -32,6 +32,11 @@ printf %s "$new_ip" |
 jq '.PublicIp[0].?' 
 
 
+# http://unix.stackexchange.com/questions/121718/how-to-parse-json-with-shell-scripting-in-linux
+
+# http://bencane.com/2014/09/02/understanding-exit-codes-and-how-to-use-them-in-bash-scripts/
+
+
 
 #new_ip2=$( echo $SQL | sed -e "s/\$BATCH_END/$BATCH_END/g" sed -i 's/standard/zero/g' $new_ip )
 

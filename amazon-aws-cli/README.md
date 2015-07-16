@@ -129,4 +129,7 @@ http://docs.aws.amazon.com/cli/latest/reference/configure/index.html<BR>
 http://docs.aws.amazon.com/AmazonS3/latest/dev/walkthrough1.html<BR>
 http://mikeferrier.com/2011/10/27/granting-access-to-a-single-s3-bucket-using-amazon-iam/<BR>
 https://centroy.com/blog/allow-user-access-single-s3-bucket<BR>
+http://unix.stackexchange.com/questions/121718/how-to-parse-json-with-shell-scripting-in-linux<BR>
+http://bencane.com/2014/09/02/understanding-exit-codes-and-how-to-use-them-in-bash-scripts/<BR>
+
 
