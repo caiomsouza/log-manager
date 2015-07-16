@@ -1,4 +1,4 @@
-#Amazon AWS Cli ()
+#Amazon AWS Cli (Command Line Interface)
 
 ```
 # Install Amazon AWS Cli on Mac OS X
@@ -45,6 +45,7 @@ aws s3 sync . s3://teste-s3-aws-cli/twitter-users
 ```
 
 #Links:
+http://aws.amazon.com/cli/
 http://docs.aws.amazon.com/cli/latest/reference/s3/cp.html
 http://docs.aws.amazon.com/cli/latest/reference/s3/sync.html
 http://docs.aws.amazon.com/cli/latest/userguide/using-s3-commands.html
