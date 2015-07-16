@@ -29,7 +29,7 @@ new_ip3=`echo "$new_ip" | sed -e "s/'\\\$value'/'$value2'/g"`
 
 
 printf %s "$new_ip" |
-jq '.[].PublicIp[0].?' 
+jq '.PublicIp[0].?' 
 
 
 
