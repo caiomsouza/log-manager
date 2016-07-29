@@ -37,4 +37,8 @@ SELECT blocked_locks.pid     AS blocked_pid,
    WHERE NOT blocked_locks.GRANTED;
 ```
 
-https://wiki.postgresql.org/wiki/Lock_Monitoring
+https://wiki.postgresql.org/wiki/Lock_Monitoring <BR>
+https://www.postgresql.org/docs/7.2/static/locking-tables.html <BR>
+https://www.postgresql.org/docs/9.5/static/view-pg-locks.html <BR>
+https://www.postgresql.org/docs/8.1/static/sql-lock.html <BR>
+https://www.postgresql.org/docs/9.1/static/explicit-locking.html <BR>
