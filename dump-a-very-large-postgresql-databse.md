@@ -13,6 +13,6 @@ pg_dump database_name -C -U user_name | zip > /home/caiomoreno/warehouse_2016073
 
 It took 5 hours and 49 minutes hours to dump 2 TB and compress in a file with 90 GB.
 
-To do this task I used the links before to help me chose the best option:
-https://www.postgresql.org/docs/9.1/static/backup-dump.html#BACKUP-DUMP-LARGE
-https://dan.langille.org/2013/06/10/using-compression-with-postgresqls-pg_dump/
+To do this task I used the links before to help me chose the best option:<BR>
+https://www.postgresql.org/docs/9.1/static/backup-dump.html#BACKUP-DUMP-LARGE<BR>
+https://dan.langille.org/2013/06/10/using-compression-with-postgresqls-pg_dump/<BR>
