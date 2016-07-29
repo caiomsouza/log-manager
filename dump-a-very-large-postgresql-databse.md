@@ -19,3 +19,9 @@ https://dan.langille.org/2013/06/10/using-compression-with-postgresqls-pg_dump/<
 https://www.postgresql.org/docs/9.3/static/app-pgdump.html<BR>
 http://www.whiteboardcoder.com/2012/05/postgres-pgdumpall-with-compression.html<BR>
 http://www.mad-hacking.net/documentation/linux/applications/postgres/backup-restore-database.xml<BR>
+
+## Connect to PostgreSQL
+```
+sudo su
+psql -d basebase -U user
+```
