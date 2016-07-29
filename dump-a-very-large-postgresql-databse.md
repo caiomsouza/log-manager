@@ -5,7 +5,11 @@ In this post I would like to share an experience I had in the past about dumping
 The database was 2 TB.
 
 The command I used was:
+
+```
 pg_dump database_name -C -U user_name | zip > /home/caiomoreno/warehouse_20160730.zip
+
+```
 
 It took 5 hours and 49 minutes hours to dump 2 TB and compress in a file with 90 GB.
 
