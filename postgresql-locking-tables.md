@@ -42,3 +42,9 @@ https://www.postgresql.org/docs/7.2/static/locking-tables.html <BR>
 https://www.postgresql.org/docs/9.5/static/view-pg-locks.html <BR>
 https://www.postgresql.org/docs/8.1/static/sql-lock.html <BR>
 https://www.postgresql.org/docs/9.1/static/explicit-locking.html <BR>
+
+
+# postgresql.conf: max_locks_per_transaction
+
+Below there is a link of a good blog about the problem with max_locks_per_transaction.
+http://www.databasesoup.com/2012/06/postgresqlconf-maxlockspertransaction.html
