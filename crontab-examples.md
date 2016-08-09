@@ -111,6 +111,7 @@ mount /dev/sdb /opt/file_mgmt
 cp -R /opt/file_mgmt/file_mgmt-backup/file_mgmt/* /opt/file_mgmt/
 ```
 
+## Reference
 
 How to mount a new drive on startup<BR>
 http://askubuntu.com/questions/154180/how-to-mount-a-new-drive-on-startup<BR>
@@ -120,23 +121,30 @@ https://wiki.archlinux.org/index.php/Fstab<BR>
 
 Editing fstab to automount partitions at startup<BR>
 https://community.linuxmint.com/tutorial/view/1513<BR>
+
 Mounting Partitions Automatically<BR>
 https://help.ubuntu.com/community/AutomaticallyMountPartitions<BR>
+
 5.9.5. Mounting File Systems Automatically with /etc/fstab<BR>
 https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Introduction_To_System_Administration/s2-storage-mount-fstab.html<BR>
+
 3.7. Mounting and Unmounting File Systems<BR>
 https://www.freebsd.org/doc/handbook/mount-unmount.html<BR>
+
 4.3. Unmounting a File System<BR>
 https://www.centos.org/docs/5/html/Global_File_System/s1-manage-unmountfs.html<BR>
+
 CentOS Init startup scripts<BR>
 https://support.suso.com/supki/CentOS_Init_startup_scripts<BR>
+
 How To Configure a Linux Service to Start Automatically After a Crash or Reboot – Part 2: Reference<BR>
 https://www.digitalocean.com/community/tutorials/how-to-configure-a-linux-service-to-start-automatically-after-a-crash-or-reboot-part-2-reference<BR>
+
 The Upstart Event System: What It Is And How To Use It<BR>
 https://www.digitalocean.com/community/tutorials/the-upstart-event-system-what-it-is-and-how-to-use-it<BR>
+
 How To Create a systemd Service in Linux (CentOS 7)<BR>
 https://scottlinux.com/2014/12/08/how-to-create-a-systemd-service-in-linux-centos-7/<BR>
-
 
 More about it:
 ```
