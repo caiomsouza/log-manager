@@ -1,5 +1,10 @@
 # Linux commands
 
+Using Yes and grep it is the same thing that pressing yes to the prompt
+```
+yes | cp files
+```
+
 ```
 ls | grep pentaho
 
