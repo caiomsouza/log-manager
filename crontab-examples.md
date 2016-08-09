@@ -99,6 +99,19 @@ proc                    /proc                   proc    defaults        0 0
 ~
 ```
 
+## Command to mount the folder
+```
+mount /dev/sdb /mnt/backup
+mount /dev/sdb /opt/file_mgmt2
+mount /dev/sdb /opt/file_mgmt
+```
+
+# Copy all files and folders from the file mgmt backup to the new mount folder /opt/file_mgmt
+```
+cp -R /opt/file_mgmt/file_mgmt-backup/file_mgmt/* /opt/file_mgmt/
+```
+
+
 How to mount a new drive on startup<BR>
 http://askubuntu.com/questions/154180/how-to-mount-a-new-drive-on-startup<BR>
 
