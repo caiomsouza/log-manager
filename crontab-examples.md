@@ -73,6 +73,32 @@ Add the line in the end.<BR>
 /dev/sdb /opt/file_mgmt ext4 rw 0 0
 ```
 
+Real Example:
+
+```
+#
+# /etc/fstab
+# Created by anaconda on Wed Mar  9 18:46:50 2016
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/VolGroup-lv_root /                       ext4    defaults        1 1
+UUID=fa266ecc-9ad8-42b2-92ab-600a0fba267d /boot                   ext4    defaults        1 2
+/dev/mapper/VolGroup-lv_varlog /var/log                ext4    noexec,nodev,nosuid,noatime,nodiratime 1 2
+/dev/mapper/VolGroup-lv_swap swap                    swap    defaults        0 0
+tmpfs                   /dev/shm                tmpfs   defaults        0 0
+devpts                  /dev/pts                devpts  gid=5,mode=620  0 0
+sysfs                   /sys                    sysfs   defaults        0 0
+proc                    /proc                   proc    defaults        0 0
+/dev/sdb /var/lib/pgsql ext4 rw 0 0
+/dev/sdb /opt/file_mgmt ext4 rw 0 0
+/dev/mapper/VolGroup-lv_tmp /tmp    ext4 noexec,nodev,nosuid,noatime,nodiratime 1 2
+~
+~
+~
+```
+
 How to mount a new drive on startup<BR>
 http://askubuntu.com/questions/154180/how-to-mount-a-new-drive-on-startup<BR>
 
